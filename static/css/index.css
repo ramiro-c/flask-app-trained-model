@@ -1,0 +1,11 @@
+form {
+    margin: 0 auto;
+    width: 400px;
+}
+button {
+    margin-left: 25%;
+}
+input {
+    padding: 10px;
+    width: 80%;
+}
