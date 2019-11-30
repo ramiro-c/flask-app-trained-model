@@ -18,7 +18,7 @@ def prediction():
     m = [sepal_length, sepal_width, sepal_length, sepal_width]
 
     measures = [float(measure) for measure in m]
-    classifier = joblib.load(' trained_model.pkl')
+    classifier = joblib.load('trained_model.pkl')
     prediction = classifier.predict([measures])
 
     iris = load_iris()
