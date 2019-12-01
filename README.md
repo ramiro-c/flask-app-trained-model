@@ -5,6 +5,7 @@ It uses a pre-trained model (downloaded from the repository AMP-Tech in the [Her
 
 ### Built with:
 - Python 3.7.4.
+- Virtual environment: virtualenv 16.7.4
 - All the necessary packages are in requirements.txt
 
 ---
