@@ -1,7 +1,7 @@
 # flask-app-trained-model
 
-This is a basic Flask app that shows you the kind of iris of the plant based on the measures.
-It uses a pre-trained model.
+This is a basic Flask app that predicts for you the kind of iris of the plant based on the measures.
+It uses a pre-trained model (downloaded from the repository AMP-Tech in the [Herokuapp](https://github.com/puigalex/AMP-Tech/tree/master/Herokuapp) folder\).
 
 ### Built with:
 - Python 3.7.4.
