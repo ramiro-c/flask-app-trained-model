@@ -1,8 +1,8 @@
-from flask import render_template, request, url_for, redirect
-import app from app
+from flask import Flask, render_template, request, url_for, redirect
 import joblib
 from sklearn.datasets import load_iris
 
+app = Flask(__name__)
 
 @app.route('/')
 def index():
