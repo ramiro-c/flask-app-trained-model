@@ -1,11 +1,12 @@
 {% extends 'base.html' %}
 
 {% block style %}
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
 {% endblock %}
 
 {% block content %}
-    <form action = "http://localhost:5000/prediction" method='POST'>
+<div class="container">
+    <form action = "http://localhost:5000/" method='POST'>
         <fieldset>
             <legend>Measures:</legend>
             <p>Sepal Length:</p>
@@ -24,4 +25,8 @@
             <button type="submit">Send the measures</button>
         </fieldset>
     </form>
+    {% if kind_of_iris %}
+        <p>These measures correspond to -> <b>{{ kind_of_iris }}</b></p>
+    {% endif %}
+</div>
 {% endblock %}
